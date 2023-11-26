@@ -1,0 +1,73 @@
+body {
+  background: url("../images/main_img.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+section {
+  height: 800px;
+}
+
+.btn-primary a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 2em;
+  background-color: rgb(35, 33, 33);
+
+  border-top-left-radius: 48px;
+  border-top-right-radius: 48px;
+}
+
+.footer-brand img {
+  height: 60px;
+  border-radius: 5px;
+}
+
+.button-footer button {
+  margin-left: 0.7em;
+  margin-right: 0.7em;
+}
+
+.footer-btn {
+  color: white;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: none;
+}
+
+.footer-btn:hover {
+  color: white;
+  padding: 10px 20px;
+  background-color: gray;
+  border-radius: 15px;
+  border: none;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-social img {
+  height: 25px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.intern-social {
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  background-color: rgb(39, 39, 39);
+}
